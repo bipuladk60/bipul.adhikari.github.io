@@ -10,7 +10,7 @@ const Nav = () => {
   const handleClick = () => {
     setIsOpen(!isOpen)
   }
-n
+
   const nav =
     <ul style={{ pointerEvents: 'auto' }}>
     <li><Link onClick={handleClick} activeClass="active" to="home" smooth={true} offset={50} duration={500}>
