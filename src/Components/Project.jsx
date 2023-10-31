@@ -13,7 +13,6 @@ const Project = ({ info }) => {
         <a href={info.liveLink} target="_blank" rel="noreferrer">Live</a>
         <a href={info.githubLink} target="_blank" rel="noreferrer">Github</a>
       </div>
-      {info.isOpenSource && <div className="open">Open Source</div>}
     </div>
   )
 }

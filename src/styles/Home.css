@@ -4,11 +4,17 @@
 
 .home {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	flex-direction: column;
 	padding-top: 10rem;
 	padding-bottom: 40px;
-	position: relative;
+	align-items: center;
+
+}
+
+.home-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .home-text h1 {

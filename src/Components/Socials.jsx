@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { AiFillInstagram, AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillInstagram, AiFillGithub, AiFillFacebook, AiFillLinkedin } from 'react-icons/ai'
 
 import '../styles/Socials.css';
 
@@ -12,22 +12,22 @@ const Socials = () => {
         <div className='insta'>
           <AiFillInstagram />
           <p>Instagram</p>
-          <a href="https://www.instagram.com/dunsincodes" target='_blank' rel='noreferrer'>Let's Connect</a>
+          <a href="https://www.instagram.com/bipuladk60/" target='_blank' rel='noreferrer'>Let's Connect</a>
         </div>
         <div className='git'>
           <AiFillGithub />
           <p>Github</p>
-          <a href="https://github.com/Dun-sin" target='_blank' rel='noreferrer'>Let's Connect</a>
+          <a href="https://github.com/bipuladk60" target='_blank' rel='noreferrer'>Let's Connect</a>
         </div>
         <div className='twit'>
-          <AiFillTwitterCircle />
+          <AiFillFacebook />
           <p>Twitter</p>
-          <a href="https://twitter.com/DunsinWebDev" target='_blank' rel='noreferrer'>Let's Connect</a>
+          <a href="https://www.facebook.com/profile.php?id=100025847800239" target='_blank' rel='noreferrer'>Let's Connect</a>
         </div>
         <div className='link'>
           <AiFillLinkedin />
           <p>Linkedin</p>
-          <a href="https://linkedin.com/in/favour-faiyetole" target='_blank' rel='noreferrer'>Let's Connect</a>
+          <a href="https://www.linkedin.com/feed/" target='_blank' rel='noreferrer'>Let's Connect</a>
         </div>
       </div>
     </div>
