@@ -1,6 +1,5 @@
 import React from 'react';
 import Project from './Project.jsx';
-import tictactoeImage from '../Assets/tictactoe.png';
 import '../styles/Projects.css';
 
 const Projects = () => {
