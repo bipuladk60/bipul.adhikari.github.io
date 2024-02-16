@@ -17,9 +17,12 @@ function App() {
     <div className='APP'>
       <div>
         <Nav />
+        <Fade fraction={.2} triggerOnce>
         <Home />
+        </Fade>
       </div>
-      <div className= 'light'>
+      <div >
+     
       <Fade fraction={.2} triggerOnce>
           <About />
         </Fade>
@@ -27,11 +30,10 @@ function App() {
           <Projects />
         </Fade>
         <Fade fraction={.2} triggerOnce>
-          <Socials />
-        </Fade>
-       
-        <Fade fraction={.2} triggerOnce>
           <Skills />
+        </Fade>
+        <Fade fraction={.2} triggerOnce>
+          <Socials />
         </Fade>
       </div>
       <div>

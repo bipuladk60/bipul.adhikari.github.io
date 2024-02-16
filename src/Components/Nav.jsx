@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import { GiHamburgerMenu } from 'react-icons/gi'
-import '../styles/Nav.css'
-
+import { GiHamburgerMenu } from 'react-icons/gi';
+import '../styles/Nav.css';
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(true)
@@ -21,10 +20,11 @@ const Nav = () => {
         Projects
       </Link></li>
       
-      <li><Link onClick={handleClick} activeClass="active" to="mail" smooth={true} offset={-50} duration={500}>
+      <li><Link onClick={handleClick} activeClass="active" to="mail" smooth={true} offset={-300} duration={500}>
         Contact
       </Link></li>
     </ul>
+  
 
   return (
     <div className='nav'>

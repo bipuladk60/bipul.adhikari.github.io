@@ -18,7 +18,7 @@ const Mail = () => {
 
   return (
     <section>
-      <div className='container'>
+      <div className='mail' id="mail">
           <h2 className='title'>Contact Me</h2>
           <form ref = {form} onSubmit={sendEmail} class = 'form'>
               <input type = 'text' placeholder='Full Name' name = 'user_name' required/>

@@ -1,20 +1,10 @@
-
-
 import '../styles/Home.css'
 
 import TypeWriterEffect from 'react-typewriter-effect';
-import { saveAs } from "file-saver";
+
 import { Link } from 'react-scroll';
 
 const Home = () => {
-  const handleDownload = () => {
-    saveAs(
-      "google drive url",
-      "Resume.pdf"
-    )
-  }
-
-
   return (
     <div className='home' id='home'>
       <div className="home-text">
@@ -38,11 +28,11 @@ const Home = () => {
             Hire Me
           </Link>
 
-          <div onClick={handleDownload} className='btn2'>View Resume</div>
+          <a href='https://drive.google.com/file/d/1hQjaMEV0YYKtbpHmAgYiu6l42gwOUBKF/view?usp=drive_link' target='_blank' className='btn2'>View Resume</a>
         </div>
       </div>
-
-    </div >
+    </div>
+  
   )
 }
 
