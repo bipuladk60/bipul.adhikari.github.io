@@ -28,7 +28,7 @@ const Home = () => {
             Hire Me
           </Link>
 
-          <a href='https://drive.google.com/file/d/1hQjaMEV0YYKtbpHmAgYiu6l42gwOUBKF/view?usp=drive_link' target='_blank' className='btn2'>View Resume</a>
+          <a href='https://drive.google.com/file/d/1hQjaMEV0YYKtbpHmAgYiu6l42gwOUBKF/view?usp=drive_link' target='_blank' className='btn2'  rel="noreferrer">View Resume</a>
         </div>
       </div>
     </div>
