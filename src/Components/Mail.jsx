@@ -20,7 +20,7 @@ const Mail = () => {
     <section>
       <div className='mail' id="mail">
           <h2 className='title'>Contact Me</h2>
-          <form ref = {form} onSubmit={sendEmail} class = 'form'>
+          <form ref = {form} onSubmit={sendEmail} className= 'form'>
               <input type = 'text' placeholder='Full Name' name = 'user_name' required/>
               <input type = 'email' placeholder='Email' name = 'user_email' required/>
               <input type = 'text' placeholder='Subject' name = 'subject' required/>
